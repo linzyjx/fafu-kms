@@ -1,10 +1,10 @@
 # 福建农林大学微软校园正版化
 
-修改自[福建师范大学微软正版化软件服务 KMS 激活脚本](https://github.com/linzyjx/fjnu-kms)
+修改自[福建师范大学微软正版化软件服务 KMS 激活脚本](https://github.com/fjnuer/fjnu-kms)
 
 ## 使用方法
 
-确保接入福建农林大学校园网，然后 [下载](https://github.com/fjnuer/fjnukms/archive/master.zip) 并解压，双击打开`FAFU正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
+确保接入福建农林大学校园网，然后 [下载](https://github.com/linzyjx/fafu-kms/archive/master.zip) 并解压，双击打开`FAFU正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
 
 福建农林大学的校内正版KMS服务器为210.34.80.101:1688。
 
