@@ -1,22 +1,15 @@
-# 福建师范大学微软校园正版化
+#福建农林大学微软校园正版化
+
+修改自[福建师范大学微软正版化软件服务 KMS 激活脚本](https://github.com/linzyjx/fjnu-kms)
 
 ## 使用方法
 
-确保使用**有线接入**福建师范大学校园网，然后 [下载](https://github.com/fjnuer/fjnukms/archive/master.zip) 并解压，双击打开`福师大正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
+确保接入福建农林大学校园网，然后 [下载](https://github.com/fjnuer/fjnukms/archive/master.zip) 并解压，双击打开`FAFU正版Windows、Office 激活脚本（双击打开，然后选是）.bat` 执行文件，弹出授权提示框，选“是”即可。如遇卡顿，请按空格键继续，稍等即可激活完成。
 
-![](img/fjnukms.png)
+福建农林大学的校内正版KMS服务器为210.34.80.101:1688。
 
-
-## 微软校园正版化
-
-2017 年 12 月 29 日，福建师大信息办网站正式发文宣布了福建师范大学微软校园正版化，并启用了 [福建师范大学校园软件正版化服务平台](http://ms.fjnu.edu.cn/) （仅限内网访问，IP 为 10.128.8.1）。  
-
-![](img/ms-fjnu-edu-cn.png)
-
-参见：
- - [关于启用微软正版化软件服务的通知](http://xxhb.fjnu.edu.cn/69/9e/c7620a158110/page.htm)
- - [我校正式启用微软正版化软件服务](http://xxhb.fjnu.edu.cn/69/e1/c7652a158177/page.htm)   
 ## 1 KMS 概述
+
 Windows 和 Office 版本版本常见的有 Retail （零售）和 VOL（Volume Licensing for Organizations，团体批量许可证）版本。前者零售版本就是为每个授权提供一个唯一的专属的激活码（ CD-KEY），但这种方式显然不适用于大规模的组织（如大企业、高校），为了满足这些大规模组织的需求，批量授权由此诞生。批量授权的方案有两种，一种是 MAK（多次激活密钥），适用于小规模的组织；另一种方案就是 KMS，即 Key Management Service（密钥管理服务）的缩写，适用于大规模组织。  
 
 ### 1.1 KMS 原理
@@ -49,23 +42,23 @@ wmic os get caption
 前往微软官网的 [KMS Client Setup Keys](https://technet.microsoft.com/en-us/library/jj612867.aspx) 页面获取 KMS 客户端设置的 25 位产品密钥。其中带“N”的版本中不包含 Windows Media Player 播放器，另外家庭版无法用 KMS，因此这里并没有提供家庭版的密钥。
 
  - Windows 10 专业版：W269N-WFGWX-YVC9B-4J6C9-T83GX  
- 
+
  - Windows 10 企业版：NPPR9-FWDCX-D2C8J-H872K-2YT43  
- 
+
  - Windows 10 教育版：NW6C2-QMPVW-D7KKK-3GKT6-VCFB2  
- 
+
  - Windows 10 Enterprise 2015 LTSB：WNMTR-4C88C-JK8YV-HQ7T2-76DF9  
- 
+
  - Windows 10 Enterprise 2016 LTSB：DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ  
 
  - Windows 10 专业版N：MH37W-N47XK-V7XM9-C7227-GCQG9  
- 
+
  - Windows 10 企业版N：DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
- 
+
  - Windows 10 教育版N：2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
- 
+
  - Windows 10 Enterprise 2015 LTSB N：2F77B-TNFGY-69QQF-B8YKP-D69TJ
- 
+
  - Windows 10 Enterprise 2016 LTSB N：QFFDN-GRT3P-VKWWX-X7T3R-8B639
 
 例如，Windows 10 专业版（Windows 10 Professional） 对应的是 `W269N-WFGWX-YVC9B-4J6C9-T83GX`。
