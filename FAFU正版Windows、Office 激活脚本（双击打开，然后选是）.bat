@@ -3,7 +3,7 @@
 :: 制作者：神奇海螺（零点IT协会）
 :: 鸣  谢：hnfeng（远景论坛）
 :: 鸣  谢：ss06009180（吾爱破解）  
-:: 
+:: ::
 
 @echo off
 setlocal EnableDelayedExpansion&color 3e & cd /d "%~dp0"
